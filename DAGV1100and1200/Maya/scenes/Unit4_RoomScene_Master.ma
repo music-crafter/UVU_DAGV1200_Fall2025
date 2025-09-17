@@ -1,29 +1,68 @@
 //Maya ASCII 2025ff03 scene
 //Name: Unit4_RoomScene_Master.ma
-//Last modified: Wed, Sep 17, 2025 01:13:26 PM
+//Last modified: Wed, Sep 17, 2025 03:46:16 PM
 //Codeset: 1252
+file -rdi 1 -ns "floor" -rfn "floorRN" -op "v=0;" -typ "mayaAscii" "C:/Users/Noah Ghent/Repos/DAGV-1200/UVU_DAGV1200_Fall2025/DAGV1100and1200/Maya//assets/floor.ma";
+file -rdi 1 -ns "walls" -rfn "wallsRN" -op "v=0;" -typ "mayaAscii" "C:/Users/Noah Ghent/Repos/DAGV-1200/UVU_DAGV1200_Fall2025/DAGV1100and1200/Maya//assets/walls.ma";
+file -rdi 1 -ns "shelf" -rfn "shelfRN" -op "v=0;" -typ "mayaAscii" "C:/Users/Noah Ghent/Repos/DAGV-1200/UVU_DAGV1200_Fall2025/DAGV1100and1200/Maya//assets/shelf.ma";
+file -rdi 1 -ns "table" -rfn "tableRN" -typ "ASS" "C:/Users/Noah Ghent/Repos/DAGV-1200/UVU_DAGV1200_Fall2025/DAGV1100and1200/Maya//assets/table.ma";
+file -rdi 1 -ns "table1" -rfn "tableRN1" -op "v=0;" -typ "mayaAscii" "C:/Users/Noah Ghent/Repos/DAGV-1200/UVU_DAGV1200_Fall2025/DAGV1100and1200/Maya//assets/table.ma";
+file -rdi 1 -ns "chair" -rfn "chairRN" -op "v=0;" -typ "mayaAscii" "C:/Users/Noah Ghent/Repos/DAGV-1200/UVU_DAGV1200_Fall2025/DAGV1100and1200/Maya//assets/chair.ma";
+file -rdi 1 -ns "chair1" -rfn "chairRN1" -op "v=0;" -typ "mayaAscii" "C:/Users/Noah Ghent/Repos/DAGV-1200/UVU_DAGV1200_Fall2025/DAGV1100and1200/Maya//assets/chair.ma";
+file -rdi 1 -ns "mug" -rfn "mugRN" -op "v=0;" -typ "mayaAscii" "C:/Users/Noah Ghent/Repos/DAGV-1200/UVU_DAGV1200_Fall2025/DAGV1100and1200/Maya//assets/mug.ma";
+file -rdi 1 -ns "book_stack" -rfn "book_stackRN" -op "v=0;" -typ "mayaAscii"
+		 "C:/Users/Noah Ghent/Repos/DAGV-1200/UVU_DAGV1200_Fall2025/DAGV1100and1200/Maya//assets/book_stack.ma";
+file -rdi 1 -ns "books1" -rfn "books1RN" -op "v=0;" -typ "mayaAscii" "C:/Users/Noah Ghent/Repos/DAGV-1200/UVU_DAGV1200_Fall2025/DAGV1100and1200/Maya//assets/books1.ma";
+file -rdi 1 -ns "books2" -rfn "books2RN" -op "v=0;" -typ "mayaAscii" "C:/Users/Noah Ghent/Repos/DAGV-1200/UVU_DAGV1200_Fall2025/DAGV1100and1200/Maya//assets/books2.ma";
+file -rdi 1 -ns "books3" -rfn "books3RN" -op "v=0;" -typ "mayaAscii" "C:/Users/Noah Ghent/Repos/DAGV-1200/UVU_DAGV1200_Fall2025/DAGV1100and1200/Maya//assets/books3.ma";
+file -rdi 1 -ns "books4" -rfn "books4RN" -op "v=0;" -typ "mayaAscii" "C:/Users/Noah Ghent/Repos/DAGV-1200/UVU_DAGV1200_Fall2025/DAGV1100and1200/Maya//assets/books4.ma";
+file -rdi 1 -ns "books5" -rfn "books5RN" -op "v=0;" -typ "mayaAscii" "C:/Users/Noah Ghent/Repos/DAGV-1200/UVU_DAGV1200_Fall2025/DAGV1100and1200/Maya//assets/books5.ma";
+file -rdi 1 -ns "book_stack1" -rfn "book_stackRN1" -op "v=0;" -typ "mayaAscii"
+		 "C:/Users/Noah Ghent/Repos/DAGV-1200/UVU_DAGV1200_Fall2025/DAGV1100and1200/Maya//assets/book_stack.ma";
+file -rdi 1 -ns "books6" -rfn "books3RN1" -op "v=0;" -typ "mayaAscii" "C:/Users/Noah Ghent/Repos/DAGV-1200/UVU_DAGV1200_Fall2025/DAGV1100and1200/Maya//assets/books3.ma";
+file -rdi 1 -ns "books7" -rfn "books2RN1" -op "v=0;" -typ "mayaAscii" "C:/Users/Noah Ghent/Repos/DAGV-1200/UVU_DAGV1200_Fall2025/DAGV1100and1200/Maya//assets/books2.ma";
+file -r -ns "floor" -dr 1 -rfn "floorRN" -op "v=0;" -typ "mayaAscii" "C:/Users/Noah Ghent/Repos/DAGV-1200/UVU_DAGV1200_Fall2025/DAGV1100and1200/Maya//assets/floor.ma";
+file -r -ns "walls" -dr 1 -rfn "wallsRN" -op "v=0;" -typ "mayaAscii" "C:/Users/Noah Ghent/Repos/DAGV-1200/UVU_DAGV1200_Fall2025/DAGV1100and1200/Maya//assets/walls.ma";
+file -r -ns "shelf" -dr 1 -rfn "shelfRN" -op "v=0;" -typ "mayaAscii" "C:/Users/Noah Ghent/Repos/DAGV-1200/UVU_DAGV1200_Fall2025/DAGV1100and1200/Maya//assets/shelf.ma";
+file -r -ns "table" -dr 1 -rfn "tableRN" -typ "ASS" "C:/Users/Noah Ghent/Repos/DAGV-1200/UVU_DAGV1200_Fall2025/DAGV1100and1200/Maya//assets/table.ma";
+file -r -ns "table1" -dr 1 -rfn "tableRN1" -op "v=0;" -typ "mayaAscii" "C:/Users/Noah Ghent/Repos/DAGV-1200/UVU_DAGV1200_Fall2025/DAGV1100and1200/Maya//assets/table.ma";
+file -r -ns "chair" -dr 1 -rfn "chairRN" -op "v=0;" -typ "mayaAscii" "C:/Users/Noah Ghent/Repos/DAGV-1200/UVU_DAGV1200_Fall2025/DAGV1100and1200/Maya//assets/chair.ma";
+file -r -ns "chair1" -dr 1 -rfn "chairRN1" -op "v=0;" -typ "mayaAscii" "C:/Users/Noah Ghent/Repos/DAGV-1200/UVU_DAGV1200_Fall2025/DAGV1100and1200/Maya//assets/chair.ma";
+file -r -ns "mug" -dr 1 -rfn "mugRN" -op "v=0;" -typ "mayaAscii" "C:/Users/Noah Ghent/Repos/DAGV-1200/UVU_DAGV1200_Fall2025/DAGV1100and1200/Maya//assets/mug.ma";
+file -r -ns "book_stack" -dr 1 -rfn "book_stackRN" -op "v=0;" -typ "mayaAscii" "C:/Users/Noah Ghent/Repos/DAGV-1200/UVU_DAGV1200_Fall2025/DAGV1100and1200/Maya//assets/book_stack.ma";
+file -r -ns "books1" -dr 1 -rfn "books1RN" -op "v=0;" -typ "mayaAscii" "C:/Users/Noah Ghent/Repos/DAGV-1200/UVU_DAGV1200_Fall2025/DAGV1100and1200/Maya//assets/books1.ma";
+file -r -ns "books2" -dr 1 -rfn "books2RN" -op "v=0;" -typ "mayaAscii" "C:/Users/Noah Ghent/Repos/DAGV-1200/UVU_DAGV1200_Fall2025/DAGV1100and1200/Maya//assets/books2.ma";
+file -r -ns "books3" -dr 1 -rfn "books3RN" -op "v=0;" -typ "mayaAscii" "C:/Users/Noah Ghent/Repos/DAGV-1200/UVU_DAGV1200_Fall2025/DAGV1100and1200/Maya//assets/books3.ma";
+file -r -ns "books4" -dr 1 -rfn "books4RN" -op "v=0;" -typ "mayaAscii" "C:/Users/Noah Ghent/Repos/DAGV-1200/UVU_DAGV1200_Fall2025/DAGV1100and1200/Maya//assets/books4.ma";
+file -r -ns "books5" -dr 1 -rfn "books5RN" -op "v=0;" -typ "mayaAscii" "C:/Users/Noah Ghent/Repos/DAGV-1200/UVU_DAGV1200_Fall2025/DAGV1100and1200/Maya//assets/books5.ma";
+file -r -ns "book_stack1" -dr 1 -rfn "book_stackRN1" -op "v=0;" -typ "mayaAscii"
+		 "C:/Users/Noah Ghent/Repos/DAGV-1200/UVU_DAGV1200_Fall2025/DAGV1100and1200/Maya//assets/book_stack.ma";
+file -r -ns "books6" -dr 1 -rfn "books3RN1" -op "v=0;" -typ "mayaAscii" "C:/Users/Noah Ghent/Repos/DAGV-1200/UVU_DAGV1200_Fall2025/DAGV1100and1200/Maya//assets/books3.ma";
+file -r -ns "books7" -dr 1 -rfn "books2RN1" -op "v=0;" -typ "mayaAscii" "C:/Users/Noah Ghent/Repos/DAGV-1200/UVU_DAGV1200_Fall2025/DAGV1100and1200/Maya//assets/books2.ma";
 requires maya "2025ff03";
-requires "mtoa" "5.4.5";
+requires -nodeType "aiOptions" -nodeType "aiAOVDriver" -nodeType "aiAOVFilter" -nodeType "aiImagerDenoiserOidn"
+		 "mtoa" "5.4.5";
 currentUnit -l centimeter -a degree -t film;
 fileInfo "application" "maya";
 fileInfo "product" "Maya 2025";
 fileInfo "version" "2025";
 fileInfo "cutIdentifier" "202409190603-cbdc5a7e54";
 fileInfo "osv" "Windows 11 Home v2009 (Build: 26100)";
-fileInfo "UUID" "1C747AF3-41F8-7544-5B32-BF87B1354FA0";
+fileInfo "UUID" "D3EBEA69-4F6F-1B88-29B8-D9846E5B26B2";
 createNode transform -s -n "persp";
 	rename -uid "D4537166-42CF-4A89-0AB8-37BA9DA49558";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 28.233720764654556 17.180302171906035 30.276958715589558 ;
-	setAttr ".r" -type "double3" -22.538352729602586 43.000000000000171 2.1744298787453859e-15 ;
+	setAttr ".t" -type "double3" 44.779277268388199 28.207648925953489 41.051989910102215 ;
+	setAttr ".r" -type "double3" -19.538352729635299 48.999999999999353 -2.4239851453286649e-15 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "A8D45876-4719-1DE3-4FF5-E99813BF8487";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 44.82186966202994;
+	setAttr ".coi" 64.167266076396771;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
+	setAttr ".tp" -type "double3" 11.648406982421875 4.3550014495849609 -9.0000002384185791 ;
 	setAttr ".hc" -type "string" "viewSet -p %camera";
 createNode transform -s -n "top";
 	rename -uid "FD1678F8-4A5F-1B42-62EC-C480F3C22BD7";
@@ -75,21 +114,31 @@ createNode camera -s -n "sideShape" -p "side";
 	setAttr ".hc" -type "string" "viewSet -s %camera";
 	setAttr ".o" yes;
 	setAttr ".ai_translator" -type "string" "orthographic";
+createNode transform -n "roomGroup";
+	rename -uid "D400EBE3-4B80-7E1F-985A-C68FC92DDC35";
+createNode transform -n "furnitureGroup";
+	rename -uid "6AC14CAF-4A34-36AA-EAD6-F0933D39FFA2";
+createNode transform -n "tableGroup" -p "furnitureGroup";
+	rename -uid "C564620A-41B3-A526-1708-2ABEBE4CA9CB";
+createNode transform -n "propsGroup";
+	rename -uid "D6170038-4299-1EFE-DD4B-42AD6B10DE10";
+createNode transform -n "booksGroup" -p "propsGroup";
+	rename -uid "27005CBD-4B92-2591-ABF1-B4895CF9815B";
 createNode lightLinker -s -n "lightLinker1";
-	rename -uid "C13FF5A8-4771-1353-DDCF-C8AFC7F0BD39";
+	rename -uid "198A6E18-4D56-0D7E-2FFA-B2B66CF7633D";
 	setAttr -s 2 ".lnk";
 	setAttr -s 2 ".slnk";
 createNode shapeEditorManager -n "shapeEditorManager";
-	rename -uid "F31A3914-4F6E-18F8-BD53-CA91E610AC07";
+	rename -uid "5BF4112C-4D87-0F7C-15E1-4794D31D5B80";
 createNode poseInterpolatorManager -n "poseInterpolatorManager";
-	rename -uid "BBCDE7C3-457E-2349-38A7-DE8F4D8EAB85";
+	rename -uid "975073D6-4177-1317-6A41-CDBD8880D98C";
 createNode displayLayerManager -n "layerManager";
-	rename -uid "44869284-4722-EBC2-2860-60ADA9EF0A15";
+	rename -uid "0ED5D6B6-4A68-4181-B105-F2B97CE9B562";
 createNode displayLayer -n "defaultLayer";
 	rename -uid "D1201E8E-4736-DB04-497F-BEAA36DB278F";
 	setAttr ".ufem" -type "stringArray" 0  ;
 createNode renderLayerManager -n "renderLayerManager";
-	rename -uid "D0445063-4238-78B0-B4ED-8587D4C2F85E";
+	rename -uid "3713D401-4EAA-4E1B-79FC-3DA00B84DBA5";
 createNode renderLayer -n "defaultRenderLayer";
 	rename -uid "9A9931FD-4389-B1F6-B346-E1A30A5EB414";
 	setAttr ".g" yes;
@@ -140,6 +189,212 @@ createNode script -n "sceneConfigurationScriptNode";
 	rename -uid "F137F34C-4DC6-BDFB-0DD2-0E8BC581ECBE";
 	setAttr ".b" -type "string" "playbackOptions -min 1 -max 120 -ast 1 -aet 200 ";
 	setAttr ".st" 6;
+createNode aiOptions -s -n "defaultArnoldRenderOptions";
+	rename -uid "60AFBAD5-461B-293D-D84D-97A0615256C4";
+	setAttr ".version" -type "string" "5.4.5";
+createNode aiAOVFilter -s -n "defaultArnoldFilter";
+	rename -uid "6EC9757E-416C-1EA4-92DD-BB98A8021691";
+	setAttr ".ai_translator" -type "string" "gaussian";
+createNode aiAOVDriver -s -n "defaultArnoldDriver";
+	rename -uid "797BC69C-4D3B-CC63-2267-0AA502592A60";
+	setAttr ".ai_translator" -type "string" "exr";
+createNode aiAOVDriver -s -n "defaultArnoldDisplayDriver";
+	rename -uid "6133C6F3-4637-1457-70F5-DFAC0693A00F";
+	setAttr ".ai_translator" -type "string" "maya";
+	setAttr ".output_mode" 0;
+createNode aiImagerDenoiserOidn -s -n "defaultArnoldDenoiser";
+	rename -uid "22948942-43BA-285C-DFA6-1AA1E6E51C70";
+createNode reference -n "floorRN";
+	rename -uid "C962A8BB-4BFF-FDF7-EE60-0CB4BFCE25E8";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"floorRN"
+		"floorRN" 0
+		"floorRN" 2
+		0 "|floor:room" "|roomGroup" "-s -r "
+		2 "floor:FloorLayer" "displayType" " 0";
+	setAttr ".ptag" -type "string" "";
+lockNode -l 1 ;
+createNode reference -n "wallsRN";
+	rename -uid "1F6C980C-49EF-1DF8-3B68-2992B8485167";
+	setAttr ".fn[0]" -type "string" "C:/Users/Noah Ghent/Repos/DAGV-1200/UVU_DAGV1200_Fall2025/DAGV1100and1200/Maya//assets/walls.ma";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"wallsRN"
+		"wallsRN" 0
+		"wallsRN" 1
+		0 "|walls:room" "|roomGroup" "-s -r ";
+	setAttr ".ptag" -type "string" "";
+lockNode -l 1 ;
+createNode reference -n "sharedReferenceNode";
+	rename -uid "8768BB13-4088-AFFC-CA75-A08517368269";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"sharedReferenceNode";
+createNode reference -n "shelfRN";
+	rename -uid "1A8C490B-4423-3B79-B1E9-15A24E198DFA";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"shelfRN"
+		"shelfRN" 0
+		"shelfRN" 4
+		0 "|shelf:shelf" "|furnitureGroup" "-s -r "
+		2 "|furnitureGroup|shelf:shelf" "translate" " -type \"double3\" 6.99999999999999645 0 -10.50000000000003553"
+		
+		2 "|furnitureGroup|shelf:shelf" "rotatePivot" " -type \"double3\" 0 0 -1.49999999999996447"
+		
+		2 "|furnitureGroup|shelf:shelf" "scalePivot" " -type \"double3\" 0 0 -1.49999999999996447";
+	setAttr ".ptag" -type "string" "";
+lockNode -l 1 ;
+createNode reference -n "tableRN";
+	rename -uid "B91ADE72-4AD0-2925-FA8A-3C8D59E6B6D2";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"tableRN"
+		"tableRN" 0;
+	setAttr ".ptag" -type "string" "";
+lockNode -l 1 ;
+createNode objectSet -s -n "ArnoldStandInDefaultLightSet";
+	rename -uid "B2F0A2E3-4FCD-67C6-0EBA-458A544011FD";
+createNode reference -n "tableRN1";
+	rename -uid "8B292B84-4496-31C4-50A6-76B6E484A797";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"tableRN1"
+		"tableRN1" 0
+		"tableRN1" 2
+		0 "|table1:table_chairs" "|furnitureGroup|tableGroup" "-s -r "
+		2 "|furnitureGroup|tableGroup|table1:table_chairs|table1:table" "translate" 
+		" -type \"double3\" 6.80364522858674103 0 6.80364522858674814";
+	setAttr ".ptag" -type "string" "";
+lockNode -l 1 ;
+createNode reference -n "chairRN";
+	rename -uid "044E112B-4646-0CA2-E008-36BE7BC393C3";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"chairRN"
+		"chairRN" 0
+		"chairRN" 4
+		0 "|chair:table_chairs" "|furnitureGroup|tableGroup" "-s -r "
+		2 "|furnitureGroup|tableGroup|chair:table_chairs|chair:chair1" "translate" 
+		" -type \"double3\" 0 0 6.8036452285867961"
+		2 "|furnitureGroup|tableGroup|chair:table_chairs|chair:chair1" "rotate" " -type \"double3\" 0 89.99999999999997158 0"
+		
+		2 "|furnitureGroup|tableGroup|chair:table_chairs|chair:chair1" "rotatePivotTranslate" 
+		" -type \"double3\" 0 0 0";
+	setAttr ".ptag" -type "string" "";
+lockNode -l 1 ;
+createNode reference -n "chairRN1";
+	rename -uid "AC3BE432-4B08-31BA-0CCC-FF99885FE295";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"chairRN1"
+		"chairRN1" 0
+		"chairRN1" 2
+		0 "|chair1:table_chairs" "|furnitureGroup|tableGroup" "-s -r "
+		2 "|furnitureGroup|tableGroup|chair1:table_chairs|chair1:chair1" "translate" 
+		" -type \"double3\" 6.8036452285869462 0 0";
+	setAttr ".ptag" -type "string" "";
+lockNode -l 1 ;
+createNode reference -n "mugRN";
+	rename -uid "68F82A96-4EB0-96BA-56B9-2B9F715501CC";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"mugRN"
+		"mugRN" 0
+		"mugRN" 2
+		0 "|mug:mug" "|propsGroup" "-s -r "
+		2 "|propsGroup|mug:mug" "translate" " -type \"double3\" 3 5.40515947341918945 7";
+	setAttr ".ptag" -type "string" "";
+lockNode -l 1 ;
+createNode reference -n "book_stackRN";
+	rename -uid "2131D228-4CB1-856A-7648-D6BE11605BE8";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"book_stackRN"
+		"book_stackRN" 0
+		"book_stackRN" 3
+		0 "|book_stack:books" "|propsGroup|booksGroup" "-s -r "
+		2 "|propsGroup|booksGroup|book_stack:books|book_stack:bookStack" "translate" 
+		" -type \"double3\" 7 5.40515947341918945 3"
+		2 "|propsGroup|booksGroup|book_stack:books|book_stack:bookStack" "rotate" 
+		" -type \"double3\" 0 -30.00000000000001066 0";
+	setAttr ".ptag" -type "string" "";
+lockNode -l 1 ;
+createNode reference -n "books1RN";
+	rename -uid "E8C744E2-45FF-B03A-58CD-A0BCA0D29B6E";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"books1RN"
+		"books1RN" 0
+		"books1RN" 2
+		0 "|books1:books" "|propsGroup|booksGroup" "-s -r "
+		2 "|propsGroup|booksGroup|books1:books|books1:bookGroup1" "translate" " -type \"double3\" 2.33091134391145705 6.92525672912597656 -9.28334079621427932";
+	setAttr ".ptag" -type "string" "";
+lockNode -l 1 ;
+createNode reference -n "books2RN";
+	rename -uid "68043237-4CEC-D4A8-A5A8-14A01625003C";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"books2RN"
+		"books2RN" 0
+		"books2RN" 2
+		0 "|books2:books" "|propsGroup|booksGroup" "-s -r "
+		2 "|propsGroup|booksGroup|books2:books|books2:bookGroup2" "translate" " -type \"double3\" 4.50813865661621094 6.92525625228881836 -9.39908900755646393";
+	setAttr ".ptag" -type "string" "";
+lockNode -l 1 ;
+createNode reference -n "books3RN";
+	rename -uid "1BFAF10A-4D26-3B02-C01B-5A8C93180F87";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"books3RN"
+		"books3RN" 0
+		"books3RN" 2
+		0 "|books3:books" "|propsGroup|booksGroup" "-s -r "
+		2 "|propsGroup|booksGroup|books3:books|books3:bookGroup3" "translate" " -type \"double3\" 6.64816761016844637 6.92525672912597656 -9.48330139860884813";
+	setAttr ".ptag" -type "string" "";
+lockNode -l 1 ;
+createNode reference -n "books4RN";
+	rename -uid "35DBBEA1-4060-80D9-BB32-5CA832DAA92F";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"books4RN"
+		"books4RN" 0
+		"books4RN" 2
+		0 "|books4:books" "|propsGroup|booksGroup" "-s -r "
+		2 "|propsGroup|booksGroup|books4:books|books4:bookGroup4" "translate" " -type \"double3\" 8.89961428327255533 6.92525672912597656 -9.71842710368446561";
+	setAttr ".ptag" -type "string" "";
+lockNode -l 1 ;
+createNode reference -n "books5RN";
+	rename -uid "527BF5C0-49CA-6507-1CB1-F4BCDEFF63B0";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"books5RN"
+		"books5RN" 0
+		"books5RN" 2
+		0 "|books5:books" "|propsGroup|booksGroup" "-s -r "
+		2 "|propsGroup|booksGroup|books5:books|books5:bookGroup7" "translate" " -type \"double3\" 2.2885699272155815 3.6383519172668457 -9.06303691864016514";
+	setAttr ".ptag" -type "string" "";
+lockNode -l 1 ;
+createNode reference -n "book_stackRN1";
+	rename -uid "F4FF5CCC-4F5E-E9B5-8A0A-F4A19F9CA358";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"book_stackRN1"
+		"book_stackRN1" 0
+		"book_stackRN1" 3
+		0 "|book_stack1:books" "|propsGroup|booksGroup" "-s -r "
+		2 "|propsGroup|booksGroup|book_stack1:books|book_stack1:bookStack" "translate" 
+		" -type \"double3\" 8.91616013669170293 3.6383519172668457 -10.27271622042909449"
+		
+		2 "|propsGroup|booksGroup|book_stack1:books|book_stack1:bookStack" "rotate" 
+		" -type \"double3\" 0 -89.99999999999997158 0";
+	setAttr ".ptag" -type "string" "";
+lockNode -l 1 ;
+createNode reference -n "books3RN1";
+	rename -uid "CB60AB83-42DA-DCF3-A058-16AB53C96876";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"books3RN1"
+		"books3RN1" 0
+		"books3RN1" 2
+		0 "|books6:books" "|propsGroup|booksGroup" "-s -r "
+		2 "|propsGroup|booksGroup|books6:books|books6:bookGroup3" "translate" " -type \"double3\" 2.38266058109774992 0.35144734382629395 -9.23572422591926667";
+	setAttr ".ptag" -type "string" "";
+lockNode -l 1 ;
+createNode reference -n "books2RN1";
+	rename -uid "21343BF5-405E-6BA8-3248-DF979F6E7112";
+	setAttr ".ed" -type "dataReferenceEdits" 
+		"books2RN1"
+		"books2RN1" 0
+		"books2RN1" 2
+		0 "|books7:books" "|propsGroup|booksGroup" "-s -r "
+		2 "|propsGroup|booksGroup|books7:books|books7:bookGroup2" "translate" " -type \"double3\" 4.54316520690917969 0.35144734382629395 -9.27803645848980096";
+	setAttr ".ptag" -type "string" "";
+lockNode -l 1 ;
 select -ne :time1;
 	setAttr ".o" 1;
 	setAttr ".unw" 1;
@@ -158,11 +413,14 @@ select -ne :defaultShaderList1;
 select -ne :postProcessList1;
 	setAttr -s 2 ".p";
 select -ne :defaultRenderingList1;
+	setAttr -s 16 ".r";
 select -ne :standardSurface1;
 	setAttr ".bc" -type "float3" 0.40000001 0.40000001 0.40000001 ;
 	setAttr ".sr" 0.5;
 select -ne :initialShadingGroup;
+	setAttr -s 26 ".dsm";
 	setAttr ".ro" yes;
+	setAttr -s 12 ".gn";
 select -ne :initialParticleSE;
 	setAttr ".ro" yes;
 select -ne :defaultRenderGlobals;
@@ -189,5 +447,12 @@ relationship "shadowLink" ":lightLinker1" ":initialShadingGroup.message" ":defau
 relationship "shadowLink" ":lightLinker1" ":initialParticleSE.message" ":defaultLightSet.message";
 connectAttr "layerManager.dli[0]" "defaultLayer.id";
 connectAttr "renderLayerManager.rlmi[0]" "defaultRenderLayer.rlid";
+connectAttr ":defaultArnoldDenoiser.msg" ":defaultArnoldRenderOptions.imagers" -na
+		;
+connectAttr ":defaultArnoldDisplayDriver.msg" ":defaultArnoldRenderOptions.drivers"
+		 -na;
+connectAttr ":defaultArnoldFilter.msg" ":defaultArnoldRenderOptions.filt";
+connectAttr ":defaultArnoldDriver.msg" ":defaultArnoldRenderOptions.drvr";
+connectAttr "sharedReferenceNode.sr" "wallsRN.sr";
 connectAttr "defaultRenderLayer.msg" ":defaultRenderingList1.r" -na;
 // End of Unit4_RoomScene_Master.ma
