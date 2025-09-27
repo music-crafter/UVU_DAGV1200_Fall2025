@@ -1,11 +1,10 @@
 //Maya ASCII 2025ff03 scene
 //Name: Unit4_RoomScene_Master.ma
-//Last modified: Wed, Sep 17, 2025 03:46:16 PM
+//Last modified: Fri, Sep 26, 2025 06:49:25 PM
 //Codeset: 1252
 file -rdi 1 -ns "floor" -rfn "floorRN" -op "v=0;" -typ "mayaAscii" "C:/Users/Noah Ghent/Repos/DAGV-1200/UVU_DAGV1200_Fall2025/DAGV1100and1200/Maya//assets/floor.ma";
 file -rdi 1 -ns "walls" -rfn "wallsRN" -op "v=0;" -typ "mayaAscii" "C:/Users/Noah Ghent/Repos/DAGV-1200/UVU_DAGV1200_Fall2025/DAGV1100and1200/Maya//assets/walls.ma";
 file -rdi 1 -ns "shelf" -rfn "shelfRN" -op "v=0;" -typ "mayaAscii" "C:/Users/Noah Ghent/Repos/DAGV-1200/UVU_DAGV1200_Fall2025/DAGV1100and1200/Maya//assets/shelf.ma";
-file -rdi 1 -ns "table" -rfn "tableRN" -typ "ASS" "C:/Users/Noah Ghent/Repos/DAGV-1200/UVU_DAGV1200_Fall2025/DAGV1100and1200/Maya//assets/table.ma";
 file -rdi 1 -ns "table1" -rfn "tableRN1" -op "v=0;" -typ "mayaAscii" "C:/Users/Noah Ghent/Repos/DAGV-1200/UVU_DAGV1200_Fall2025/DAGV1100and1200/Maya//assets/table.ma";
 file -rdi 1 -ns "chair" -rfn "chairRN" -op "v=0;" -typ "mayaAscii" "C:/Users/Noah Ghent/Repos/DAGV-1200/UVU_DAGV1200_Fall2025/DAGV1100and1200/Maya//assets/chair.ma";
 file -rdi 1 -ns "chair1" -rfn "chairRN1" -op "v=0;" -typ "mayaAscii" "C:/Users/Noah Ghent/Repos/DAGV-1200/UVU_DAGV1200_Fall2025/DAGV1100and1200/Maya//assets/chair.ma";
@@ -24,7 +23,6 @@ file -rdi 1 -ns "books7" -rfn "books2RN1" -op "v=0;" -typ "mayaAscii" "C:/Users/
 file -r -ns "floor" -dr 1 -rfn "floorRN" -op "v=0;" -typ "mayaAscii" "C:/Users/Noah Ghent/Repos/DAGV-1200/UVU_DAGV1200_Fall2025/DAGV1100and1200/Maya//assets/floor.ma";
 file -r -ns "walls" -dr 1 -rfn "wallsRN" -op "v=0;" -typ "mayaAscii" "C:/Users/Noah Ghent/Repos/DAGV-1200/UVU_DAGV1200_Fall2025/DAGV1100and1200/Maya//assets/walls.ma";
 file -r -ns "shelf" -dr 1 -rfn "shelfRN" -op "v=0;" -typ "mayaAscii" "C:/Users/Noah Ghent/Repos/DAGV-1200/UVU_DAGV1200_Fall2025/DAGV1100and1200/Maya//assets/shelf.ma";
-file -r -ns "table" -dr 1 -rfn "tableRN" -typ "ASS" "C:/Users/Noah Ghent/Repos/DAGV-1200/UVU_DAGV1200_Fall2025/DAGV1100and1200/Maya//assets/table.ma";
 file -r -ns "table1" -dr 1 -rfn "tableRN1" -op "v=0;" -typ "mayaAscii" "C:/Users/Noah Ghent/Repos/DAGV-1200/UVU_DAGV1200_Fall2025/DAGV1100and1200/Maya//assets/table.ma";
 file -r -ns "chair" -dr 1 -rfn "chairRN" -op "v=0;" -typ "mayaAscii" "C:/Users/Noah Ghent/Repos/DAGV-1200/UVU_DAGV1200_Fall2025/DAGV1100and1200/Maya//assets/chair.ma";
 file -r -ns "chair1" -dr 1 -rfn "chairRN1" -op "v=0;" -typ "mayaAscii" "C:/Users/Noah Ghent/Repos/DAGV-1200/UVU_DAGV1200_Fall2025/DAGV1100and1200/Maya//assets/chair.ma";
@@ -48,12 +46,12 @@ fileInfo "product" "Maya 2025";
 fileInfo "version" "2025";
 fileInfo "cutIdentifier" "202409190603-cbdc5a7e54";
 fileInfo "osv" "Windows 11 Home v2009 (Build: 26100)";
-fileInfo "UUID" "D3EBEA69-4F6F-1B88-29B8-D9846E5B26B2";
+fileInfo "UUID" "E23CBC81-4645-94F9-4B50-8D85CC3854C5";
 createNode transform -s -n "persp";
 	rename -uid "D4537166-42CF-4A89-0AB8-37BA9DA49558";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 44.779277268388199 28.207648925953489 41.051989910102215 ;
-	setAttr ".r" -type "double3" -19.538352729635299 48.999999999999353 -2.4239851453286649e-15 ;
+	setAttr ".t" -type "double3" 44.352473525624113 37.836101920508533 36.940899619887944 ;
+	setAttr ".r" -type "double3" -28.53835272963769 47.400000000001207 -2.3494368421401693e-15 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "A8D45876-4719-1DE3-4FF5-E99813BF8487";
 	setAttr -k off ".v" no;
@@ -125,20 +123,20 @@ createNode transform -n "propsGroup";
 createNode transform -n "booksGroup" -p "propsGroup";
 	rename -uid "27005CBD-4B92-2591-ABF1-B4895CF9815B";
 createNode lightLinker -s -n "lightLinker1";
-	rename -uid "198A6E18-4D56-0D7E-2FFA-B2B66CF7633D";
+	rename -uid "6FAE2524-4D63-48EA-208A-DE9EA8B0658A";
 	setAttr -s 2 ".lnk";
 	setAttr -s 2 ".slnk";
 createNode shapeEditorManager -n "shapeEditorManager";
-	rename -uid "5BF4112C-4D87-0F7C-15E1-4794D31D5B80";
+	rename -uid "AA4039CC-4382-68F3-624D-3E842EB6F144";
 createNode poseInterpolatorManager -n "poseInterpolatorManager";
-	rename -uid "975073D6-4177-1317-6A41-CDBD8880D98C";
+	rename -uid "4E122251-4AB4-524D-E55E-28B8F20AFA63";
 createNode displayLayerManager -n "layerManager";
-	rename -uid "0ED5D6B6-4A68-4181-B105-F2B97CE9B562";
+	rename -uid "5CD5806A-449D-5B83-E814-A88D771244D1";
 createNode displayLayer -n "defaultLayer";
 	rename -uid "D1201E8E-4736-DB04-497F-BEAA36DB278F";
 	setAttr ".ufem" -type "stringArray" 0  ;
 createNode renderLayerManager -n "renderLayerManager";
-	rename -uid "3713D401-4EAA-4E1B-79FC-3DA00B84DBA5";
+	rename -uid "083F7D56-4D27-C328-5DD7-B48869EE4F37";
 createNode renderLayer -n "defaultRenderLayer";
 	rename -uid "9A9931FD-4389-B1F6-B346-E1A30A5EB414";
 	setAttr ".g" yes;
@@ -240,13 +238,6 @@ createNode reference -n "shelfRN";
 		2 "|furnitureGroup|shelf:shelf" "rotatePivot" " -type \"double3\" 0 0 -1.49999999999996447"
 		
 		2 "|furnitureGroup|shelf:shelf" "scalePivot" " -type \"double3\" 0 0 -1.49999999999996447";
-	setAttr ".ptag" -type "string" "";
-lockNode -l 1 ;
-createNode reference -n "tableRN";
-	rename -uid "B91ADE72-4AD0-2925-FA8A-3C8D59E6B6D2";
-	setAttr ".ed" -type "dataReferenceEdits" 
-		"tableRN"
-		"tableRN" 0;
 	setAttr ".ptag" -type "string" "";
 lockNode -l 1 ;
 createNode objectSet -s -n "ArnoldStandInDefaultLightSet";
@@ -454,5 +445,6 @@ connectAttr ":defaultArnoldDisplayDriver.msg" ":defaultArnoldRenderOptions.drive
 connectAttr ":defaultArnoldFilter.msg" ":defaultArnoldRenderOptions.filt";
 connectAttr ":defaultArnoldDriver.msg" ":defaultArnoldRenderOptions.drvr";
 connectAttr "sharedReferenceNode.sr" "wallsRN.sr";
+connectAttr "sharedReferenceNode.sr" "tableRN1.sr";
 connectAttr "defaultRenderLayer.msg" ":defaultRenderingList1.r" -na;
 // End of Unit4_RoomScene_Master.ma
